@@ -1,8 +1,8 @@
-## homework
+#  homework
 
-## 註冊系統
-
-題目:
+題目：
+## 1. 註冊系統
+情境:
 註冊開始
 是否結束(y/n):n
 請輸入學生姓名:小王
@@ -11,34 +11,11 @@
 是否結束(y/n):p
 輸入錯誤請輸入y/n:y
 註冊結束
-班級共2人,名稱為小王 小李'''
+班級共2人,名稱為小王 小李
+
+## 2. 1~100 隨機取10個數字
+使用 Python 隨機產生包含十個整數的陣列(數值範圍為 0 到 100)並顯示出來後,將該陣列由大到小排序後再顯示出來。
 
 
-```print('註冊開始')
-
-student_list=[]
-while True:
-  enter = input('是否結束(y/n)')
-  if enter in ['n']:
-      student = input('請輸入姓名:')
-      student_list.append(student)
-  elif enter in ['y']:
-        print('註冊結束')
-        print('班級總人數共',(len(student_list)),'人','名稱:',student_list[:])
-        break
-        student_list=False
-  else:
-      print('輸入錯誤!請輸入Y/N')```
-
-註冊開始
-是否結束(y/n)n
-請輸入姓名:小小
-是否結束(y/n)ㄙ
-輸入錯誤!請輸入Y/N
-是否結束(y/n)n
-請輸入姓名:大大
-是否結束(y/n)y
-註冊結束
-班級總人數共 2 人 名稱: ['小小', '大大']
-
----
+## 3. 1~100 隨機取10個數字
+用for迴圈排序(不能用sort)import random
